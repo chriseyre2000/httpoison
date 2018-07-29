@@ -1,4 +1,4 @@
-defmodule HTTPoison.Mixfile do
+  defmodule HTTPoison.Mixfile do
   use Mix.Project
 
   @description """
@@ -24,7 +24,7 @@ defmodule HTTPoison.Mixfile do
 
   defp deps do
     [
-      {:hackney, "~> 1.8"},
+      {:hackney, "~> 1.13"},
       {:exjsx, "~> 3.1", only: :test},
       {:httparrot, "~> 1.0", only: :test},
       {:meck, "~> 0.8.2", only: :test},
